@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  background-color:;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.header a {
+  margin-left: 2rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f8eeff;
+}
+
+.hero h2 {
+  font-size: 6rem;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: hwb(268 39% 11%);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.features, .download {
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer {
+  padding: 1rem;
+  background: #a051fc;
+  color: white;
+  text-align: center;
+}
